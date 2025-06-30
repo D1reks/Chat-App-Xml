@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:autofillHints="@string/userEmail"
+    android:orientation="vertical"
     tools:context=".ui.authentification.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/loginDrawable"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userInputEmail"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/userEmail"
+            android:importantForAutofill="yes"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/userInputPassword"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints="@string/userPassword"
+            android:ems="10"
+            android:hint="@string/userPassword"
+            android:importantForAutofill="yes"
+            android:inputType="textPassword|textVisiblePassword" />
+
+        <Button
+            android:id="@+id/authButt"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/authButtonLogin"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>
