@@ -5,4 +5,9 @@
     <string name="authButtonLogin">Sign In</string>
     <string name="registerButtonText">Sign up</string>
     <string name="loginDrawable">Logo Img</string>
+    <string name="toChatListButt">Перейти к списку чатов</string>
+    <string name="logoutButt">Выйти</string>
+    <string name="profilePhotoDescription">Фото профиля</string>
+    <string name="userNameText">Имя пользователя</string>
+    <string name="userEmailText">example@gmail.com</string>
 </resources>

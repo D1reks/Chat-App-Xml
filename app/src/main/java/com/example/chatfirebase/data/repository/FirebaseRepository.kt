@@ -6,8 +6,14 @@ import android.widget.Toast
 import com.example.chatfirebase.data.model.User
 import com.example.chatfirebase.data.model.UserMessage
 import com.example.chatfirebase.ui.profile.ProfileActivity
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
+import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.tasks.await
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
 
 class FirebaseRepository {
 
@@ -112,6 +118,36 @@ class FirebaseRepository {
         } catch (e: Exception) {
             // Обработка ошибок
             println("${e.message} - ошибка отправки сообщения")
+        }
+    }
+    /**
+     * загрузка данных юзера в профиль.
+     */
+    suspend fun loadUserData(userId: String?): Pair<String, String> = suspendCancellableCoroutine { cont ->
+        try {
+            val userId = userId ?: "no user id"
+            val databaseRef = FirebaseDatabase.getInstance().getReference("users").child(userId)
+            databaseRef.addListenerForSingleValueEvent(object : ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    try {
+                        val userEmail = snapshot.child("userEmail").getValue(String::class.java)
+                        val userName = snapshot.child("userName").getValue(String::class.java)
+                        if (userEmail != null && userName != null) {
+                            cont.resume(Pair(userEmail, userName))
+                        } else {
+                            cont.resumeWithException(Exception("Данные пользователя не найдены"))
+                        }
+                    } catch (e: Exception) {
+                        cont.resumeWithException(e)
+                    }
+                }
+
+                override fun onCancelled(error: DatabaseError) {
+                    cont.resumeWithException(error.toException())
+                }
+            })
+        } catch (e: Exception) {
+            cont.resumeWithException(e)
         }
     }
 }

@@ -7,30 +7,41 @@
     android:padding="24dp"
     tools:context=".ui.profile.ProfileActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:indeterminateTint="#FFFFFF"/>
+
         <!-- Фото профиля -->
         <ImageView
             android:id="@+id/profileImage"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/img_login"
-            android:contentDescription="Фото профиля"
+            android:src="@drawable/profile_picture"
+            android:contentDescription="@string/profilePhotoDescription"
             android:scaleType="centerCrop"
-            android:background="@drawable/img_login"
+            android:background="@drawable/profile_picture"
             android:layout_marginBottom="24dp"/>
+
 
         <!-- Имя -->
         <TextView
-            android:id="@+id/nameText"
+            android:id="@+id/userNameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Имя пользователя"
+            android:text="@string/userNameText"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
@@ -38,10 +49,10 @@
 
         <!-- Почта -->
         <TextView
-            android:id="@+id/emailText"
+            android:id="@+id/userEmailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="user@example.com"
+            android:text="@string/userEmailText"
             android:textSize="16sp"
             android:textColor="#FFFFFF"
             android:layout_marginBottom="32dp"/>
@@ -52,7 +63,7 @@
             style="@style/ButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Перейти к списку чатов"
+            android:text="@string/toChatListButt"
             android:paddingVertical="12dp"
             android:textSize="16sp"
             />
@@ -62,7 +73,7 @@
             android:id="@+id/logoutButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Выйти"
+            android:text="@string/logoutButt"
             android:paddingVertical="12dp"
             android:layout_marginTop="16dp"
             android:textSize="16sp"

@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:contentDescription="@string/loginDrawable"
         android:scaleType="fitCenter"
-        android:src="@drawable/img_login" />
+        android:src="@drawable/login_logo" />
 
     <LinearLayout
         android:layout_width="match_parent"
