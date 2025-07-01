@@ -1,8 +1,8 @@
 package com.example.chatfirebase.data.model
 
 data class User(
-    val userId: String?,
-    val userName: String,
-    val userEmail: String,
-    val userPassword: String
+    val userEmail: String= "",
+    val userId: String?= "",
+    val userName: String= "",
+    val userPassword: String= "",
 )

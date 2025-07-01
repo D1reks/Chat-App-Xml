@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp"
     tools:context=".ui.profile.ProfileActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Фото профиля -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/img_login"
+            android:contentDescription="Фото профиля"
+            android:scaleType="centerCrop"
+            android:background="@drawable/img_login"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Имя -->
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя пользователя"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Почта -->
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user@example.com"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Кнопка к списку чатов -->
+        <Button
+            android:id="@+id/chatListButton"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Перейти к списку чатов"
+            android:paddingVertical="12dp"
+            android:textSize="16sp"
+            />
+
+        <!-- Кнопка выхода -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выйти"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:backgroundTint="#B00020"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
