@@ -5,6 +5,7 @@ import android.content.Intent
 import android.widget.Toast
 import com.example.chatfirebase.data.model.User
 import com.example.chatfirebase.data.model.UserMessage
+import com.example.chatfirebase.data.navigation_util.NavigationUtil.openNextIntent
 import com.example.chatfirebase.ui.profile.ProfileActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -70,7 +71,6 @@ class FirebaseRepository {
                     val userInfo = child.getValue(User::class.java)
                     val userId = userInfo?.userId
                     Toast.makeText(context, "Найден пользователь: ${userInfo?.userEmail}", Toast.LENGTH_SHORT).show()
-
                     if (userInfo == null) {
                         println("User data is null for key: $userId")
                         continue
@@ -81,7 +81,7 @@ class FirebaseRepository {
                     if (userInfo.userPassword == password) {
                         userFound = true
                         // Переход на профиль
-                        val intent = Intent(context, ProfileActivity::class.java).apply {
+                             val intent = Intent(context, ProfileActivity::class.java).apply {
                             putExtra("userId", userId)
                         }
                         context.startActivity(intent)

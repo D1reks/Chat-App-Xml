@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">655370149431</string>
+    <string name="google_api_key" translatable="false">AIzaSyALKtgciILZs5AgCqDL-XSb47u_JXDyUzc</string>
+    <string name="google_app_id" translatable="false">1:655370149431:android:088a3146a63801e332a9b2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALKtgciILZs5AgCqDL-XSb47u_JXDyUzc</string>
+    <string name="google_storage_bucket" translatable="false">chat-32708.firebasestorage.app</string>
+    <string name="project_id" translatable="false">chat-32708</string>
+</resources>

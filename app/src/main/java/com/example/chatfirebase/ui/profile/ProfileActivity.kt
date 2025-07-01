@@ -7,7 +7,10 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.chatfirebase.R
+import com.example.chatfirebase.data.navigation_util.NavigationUtil
+import com.example.chatfirebase.data.navigation_util.NavigationUtil.openNextIntent
 import com.example.chatfirebase.data.repository.FirebaseRepository
+import com.example.chatfirebase.ui.chat.ChatActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -22,6 +25,7 @@ class ProfileActivity : AppCompatActivity() {
         val emailTextView = findViewById<TextView>(R.id.userEmailText)
         val userNameTextView = findViewById<TextView>(R.id.userNameText)
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
+        val buttToChatList= findViewById<Button>(R.id.chatListButton)
 
         // Показываем прогресс-бар перед загрузкой
         progressBar.visibility = View.VISIBLE
@@ -40,6 +44,9 @@ class ProfileActivity : AppCompatActivity() {
                 // Скрываем прогресс-бар после загрузки
                 progressBar.visibility = View.GONE
             }
+        }
+        buttToChatList.setOnClickListener{
+            openNextIntent(this, ChatActivity::class.java, userId)
         }
     }
 }

@@ -10,4 +10,6 @@
     <string name="profilePhotoDescription">Фото профиля</string>
     <string name="userNameText">Имя пользователя</string>
     <string name="userEmailText">example@gmail.com</string>
+    <string name="chatsListTop">Список чатов</string>
+    <string name="addChatButt">Добавить чат</string>
 </resources>
