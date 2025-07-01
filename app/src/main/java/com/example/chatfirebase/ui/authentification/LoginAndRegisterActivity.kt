@@ -7,7 +7,7 @@ import com.example.chatfirebase.R
 import com.example.chatfirebase.data.repository.FirebaseRepository
 import com.example.chatfirebase.input_implementation.input_provider.UserInputProvider
 
-class LoginActivity : AppCompatActivity() {
+class LoginAndRegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -16,8 +16,12 @@ class LoginActivity : AppCompatActivity() {
         val firebaseRepo = FirebaseRepository()
 
         val loginButton = findViewById<Button>(R.id.authButt)
+        val registerButton = findViewById<Button>(R.id.registerButton)
         loginButton.setOnClickListener {
-            firebaseRepo.loginUser(inputProvider.getEmail(),inputProvider.getPassword())
+            firebaseRepo.loginUser(this, inputProvider.getEmail(),inputProvider.getPassword())
+        }
+        registerButton.setOnClickListener{
+            firebaseRepo.registerUser(this, inputProvider.getEmail(),inputProvider.getPassword())
         }
     }
 }

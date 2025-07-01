@@ -2,6 +2,7 @@
     <string name="app_name">ChatFirebase</string>
     <string name="userEmail">Your Email</string>
     <string name="userPassword">Your Password</string>
-    <string name="authButtonLogin">Login</string>
-    <string name="loginDrawable">Login</string>
+    <string name="authButtonLogin">Sign In</string>
+    <string name="registerButtonText">Sign up</string>
+    <string name="loginDrawable">Logo Img</string>
 </resources>

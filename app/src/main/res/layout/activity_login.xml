@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:autofillHints="@string/userEmail"
     android:orientation="vertical"
-    tools:context=".ui.authentification.LoginActivity">
+    tools:context=".ui.authentification.LoginAndRegisterActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -48,14 +48,30 @@
             android:importantForAutofill="yes"
             android:inputType="textPassword|textVisiblePassword" />
 
-        <Button
-            android:id="@+id/authButt"
-            style="@style/ButtonStyle"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/authButtonLogin"
-            android:textAlignment="center" />
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/authButt"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/authButtonLogin" />
+
+            <Button
+                android:id="@+id/registerButton"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registerButtonText"
+                android:layout_marginStart="16dp" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
