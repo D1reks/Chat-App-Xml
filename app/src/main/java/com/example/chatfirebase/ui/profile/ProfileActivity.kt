@@ -1,5 +1,6 @@
 package com.example.chatfirebase.ui.profile
 
+import FirebaseRepository
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -7,9 +8,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.chatfirebase.R
-import com.example.chatfirebase.data.navigation_util.NavigationUtil
-import com.example.chatfirebase.data.navigation_util.NavigationUtil.openNextIntent
-import com.example.chatfirebase.data.repository.FirebaseRepository
+import com.example.chatfirebase.data.util.NavigationUtil.openNextIntent
 import com.example.chatfirebase.ui.chat.ChatActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

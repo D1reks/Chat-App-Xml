@@ -1,4 +1,4 @@
-package com.example.chatfirebase.data.navigation_util
+package com.example.chatfirebase.data.util
 
 import android.app.Activity
 import android.content.Context

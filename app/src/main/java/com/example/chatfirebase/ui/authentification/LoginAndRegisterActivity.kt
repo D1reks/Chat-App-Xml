@@ -1,11 +1,11 @@
 package com.example.chatfirebase.ui.authentification
 
+import FirebaseRepository
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.lifecycle.lifecycleScope
 import com.example.chatfirebase.R
-import com.example.chatfirebase.data.repository.FirebaseRepository
 import com.example.chatfirebase.input_implementation.input_provider.UserInputProvider
 import kotlinx.coroutines.launch
 
