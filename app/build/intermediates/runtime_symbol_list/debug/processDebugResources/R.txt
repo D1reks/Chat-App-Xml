@@ -3241,6 +3241,8 @@ int id easeInOut 0x7f0800b1
 int id easeOut 0x7f0800b2
 int id east 0x7f0800b3
 int id edge 0x7f0800b4
+int id editTextEmail 0x7f080207
+int id editTextMessage 0x7f080208
 int id edit_query 0x7f0800b5
 int id elastic 0x7f0800b6
 int id embed 0x7f0800b7
@@ -3411,7 +3413,7 @@ int id position 0x7f08015b
 int id postLayout 0x7f08015c
 int id pressed 0x7f08015d
 int id profileImage 0x7f08015e
-int id progressBar 0x7f08015f
+int id progressBarProfile 0x7f08020c
 int id progress_circular 0x7f080160
 int id progress_horizontal 0x7f080161
 int id radio 0x7f080162
@@ -3522,6 +3524,7 @@ int id textSpacerNoButtons 0x7f0801c9
 int id textSpacerNoTitle 0x7f0801ca
 int id textStart 0x7f0801cb
 int id textTop 0x7f0801cc
+int id textViewInstruction 0x7f08020a
 int id text_input_end_icon 0x7f0801cd
 int id text_input_error_icon 0x7f0801ce
 int id text_input_start_icon 0x7f0801cf
@@ -3699,6 +3702,7 @@ int layout activity_profile 0x7f0b001f
 int layout browser_actions_context_menu_page 0x7f0b0020
 int layout browser_actions_context_menu_row 0x7f0b0021
 int layout custom_dialog 0x7f0b0022
+int layout custom_dialog_message 0x7f0b0070
 int layout design_bottom_navigation_item 0x7f0b0023
 int layout design_bottom_sheet_dialog 0x7f0b0024
 int layout design_layout_snackbar 0x7f0b0025
@@ -3902,6 +3906,7 @@ int string material_timepicker_minute 0x7f100071
 int string material_timepicker_pm 0x7f100072
 int string material_timepicker_select_time 0x7f100073
 int string material_timepicker_text_input_mode_description 0x7f100074
+int string messField 0x7f1000c9
 int string mtrl_badge_numberless_content_description 0x7f100075
 int string mtrl_checkbox_button_icon_path_checked 0x7f100076
 int string mtrl_checkbox_button_icon_path_group_name 0x7f100077
@@ -3984,6 +3989,8 @@ int string userEmail 0x7f1000c3
 int string userEmailText 0x7f1000c4
 int string userNameText 0x7f1000c5
 int string userPassword 0x7f1000c6
+int string writeEmailMess 0x7f1000ca
+int string writeFirstText 0x7f1000cb
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002

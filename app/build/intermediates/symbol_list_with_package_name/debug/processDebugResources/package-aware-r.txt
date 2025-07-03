@@ -3242,6 +3242,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextEmail
+id editTextMessage
 id edit_query
 id elastic
 id embed
@@ -3412,7 +3414,7 @@ id position
 id postLayout
 id pressed
 id profileImage
-id progressBar
+id progressBarProfile
 id progress_circular
 id progress_horizontal
 id radio
@@ -3523,6 +3525,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewInstruction
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3700,6 +3703,7 @@ layout activity_profile
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout custom_dialog_message
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3903,6 +3907,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string messField
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3985,6 +3990,8 @@ string userEmail
 string userEmailText
 string userNameText
 string userPassword
+string writeEmailMess
+string writeFirstText
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

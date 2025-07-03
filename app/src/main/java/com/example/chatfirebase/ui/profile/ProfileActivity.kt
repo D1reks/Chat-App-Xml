@@ -23,7 +23,7 @@ class ProfileActivity : AppCompatActivity() {
 
         val emailTextView = findViewById<TextView>(R.id.userEmailText)
         val userNameTextView = findViewById<TextView>(R.id.userNameText)
-        val progressBar = findViewById<ProgressBar>(R.id.progressBar)
+        val progressBar = findViewById<ProgressBar>(R.id.progressBarProfile)
         val buttToChatList= findViewById<Button>(R.id.chatListButton)
 
         // Показываем прогресс-бар перед загрузкой

@@ -7,25 +7,28 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="addChatButt">Добавить чат</string>
+    <string name="addChatButt">Add Chat</string>
     <string name="app_name">ChatFirebase</string>
     <string name="authButtonLogin">Sign In</string>
-    <string name="chatsListTop">Список чатов</string>
+    <string name="chatsListTop">Chat List</string>
     <string name="gcm_defaultSenderId" translatable="false">655370149431</string>
     <string name="google_api_key" translatable="false">AIzaSyALKtgciILZs5AgCqDL-XSb47u_JXDyUzc</string>
     <string name="google_app_id" translatable="false">1:655370149431:android:088a3146a63801e332a9b2</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALKtgciILZs5AgCqDL-XSb47u_JXDyUzc</string>
     <string name="google_storage_bucket" translatable="false">chat-32708.firebasestorage.app</string>
     <string name="loginDrawable">Logo Img</string>
-    <string name="logoutButt">Выйти</string>
-    <string name="profilePhotoDescription">Фото профиля</string>
+    <string name="logoutButt">Exit</string>
+    <string name="messField">Message</string>
+    <string name="profilePhotoDescription">Profile photo</string>
     <string name="project_id" translatable="false">chat-32708</string>
     <string name="registerButtonText">Sign up</string>
-    <string name="toChatListButt">Перейти к списку чатов</string>
+    <string name="toChatListButt">To chat List</string>
     <string name="userEmail">Your Email</string>
     <string name="userEmailText">example@gmail.com</string>
-    <string name="userNameText">Имя пользователя</string>
+    <string name="userNameText">User name</string>
     <string name="userPassword">Your Password</string>
+    <string name="writeEmailMess">User email</string>
+    <string name="writeFirstText">Be first to write the message</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:background">@android:color/black</item>
     </style>

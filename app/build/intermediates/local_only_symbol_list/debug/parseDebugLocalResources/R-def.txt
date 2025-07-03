@@ -18,11 +18,14 @@ drawable profile_picture
 id authButt
 id buttonAddChat
 id chatListButton
+id editTextEmail
+id editTextMessage
 id logoutButton
 id profileImage
-id progressBar
+id progressBarProfile
 id recyclerViewChats
 id registerButton
+id textViewInstruction
 id title
 id userEmail
 id userEmailText
@@ -35,6 +38,7 @@ layout activity_chat
 layout activity_chat_fragment
 layout activity_login
 layout activity_profile
+layout custom_dialog_message
 layout item_chat
 mipmap chat_logo
 mipmap chat_logo_foreground
@@ -52,6 +56,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string loginDrawable
 string logoutButt
+string messField
 string profilePhotoDescription
 string project_id
 string registerButtonText
@@ -60,6 +65,8 @@ string userEmail
 string userEmailText
 string userNameText
 string userPassword
+string writeEmailMess
+string writeFirstText
 style AppTheme
 style ButtonStyle
 style EditTextStyle
