@@ -141,4 +141,31 @@ class FirebaseRepository(private val firebaseHelper: FirebaseRepositoryHelper = 
             cont.resumeWithException(error.toException())
         })
     }
+    suspend fun loadChatFragment(receiverEmail: String?): List<UserMessage> = suspendCancellableCoroutine { cont ->
+        if (receiverEmail == null) {
+            cont.resumeWithException(Exception("No receiverEmail "))
+            return@suspendCancellableCoroutine
+        }
+        val ref = firebaseHelper.getReference("messages")
+        firebaseHelper.addSingleValueListener(ref, { snapshot ->
+            try {
+                val usersSet = mutableSetOf<UserMessage>()
+                for (child in snapshot.children) {
+                    val reciverEmail = child.child("reciverEmail").getValue(String::class.java) ?: ""
+                    val reciverName = child.child("reciverName").getValue(String::class.java) ?: ""
+                    val senderId = child.child("senderId").getValue(String::class.java) ?: ""
+                    val messageText = child.child("text").getValue(String::class.java) ?: ""
+                    if (reciverEmail == receiverEmail) {
+                        val user = UserMessage(senderId, reciverEmail, reciverName, messageText)
+                        usersSet.add(user)
+                    }
+                }
+                cont.resume(usersSet.toList())
+            } catch (e: Exception) {
+                cont.resumeWithException(e)
+            }
+        }, { error ->
+            cont.resumeWithException(error.toException())
+        })
+    }
 }

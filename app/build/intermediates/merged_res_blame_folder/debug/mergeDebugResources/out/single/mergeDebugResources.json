@@ -16,12 +16,12 @@
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\drawable\\button_background.xml"
-    },
-    {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xhdpi_chat_logo.webp.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xhdpi\\chat_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\drawable\\button_background.xml"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\drawable\\login_logo.jpg"
     },
     {
-        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_chat_logo_round.webp.flat",
-        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxhdpi\\chat_logo_round.webp"
-    },
-    {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxxhdpi_chat_logo_round.webp.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxxhdpi\\chat_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_chat_logo_round.webp.flat",
+        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxhdpi\\chat_logo_round.webp"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -58,10 +58,6 @@
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.chatfirebase.app-debug-5:/layout_activity_chat.xml.flat",
-        "source": "com.example.chatfirebase.app-main-7:/layout/activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\drawable_app_logo.jpg.flat",
@@ -88,12 +84,12 @@
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\layout_custom_dialog_message.xml.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\layout\\custom_dialog_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -132,6 +128,10 @@
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-anydpi-v26\\chat_logo_round.xml"
     },
     {
+        "merged": "com.example.chatfirebase.app-debug-5:/layout_item_message_user.xml.flat",
+        "source": "com.example.chatfirebase.app-main-7:/layout/item_message_user.xml"
+    },
+    {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -150,6 +150,10 @@
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-hdpi_chat_logo_foreground.webp.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-hdpi\\chat_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.chatfirebase.app-debug-5:/layout_item_message_receiver.xml.flat",
+        "source": "com.example.chatfirebase.app-main-7:/layout/item_message_receiver.xml"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -186,6 +190,10 @@
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-xxhdpi_chat_logo_foreground.webp.flat",
         "source": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-main-7:\\mipmap-xxhdpi\\chat_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.chatfirebase.app-debug-5:/layout_activity_chat_fragment.xml.flat",
+        "source": "com.example.chatfirebase.app-main-7:/layout/activity_chat_fragment.xml"
     },
     {
         "merged": "C:\\Users\\ROG\\.gradle\\daemon\\8.13\\com.example.chatfirebase.app-debug-5:\\mipmap-hdpi_chat_logo_round.webp.flat",

@@ -3064,6 +3064,7 @@ int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
+int id ItemMessage 0x7f08020d
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
 int id SHIFT 0x7f080007
@@ -3312,6 +3313,7 @@ int id line3 0x7f0800f6
 int id linear 0x7f0800f7
 int id listMode 0x7f0800f8
 int id list_item 0x7f0800f9
+int id llInputArea 0x7f08020e
 int id logoutButton 0x7f0800fa
 int id m3_side_sheet 0x7f0800fb
 int id marquee 0x7f0800fc
@@ -3418,7 +3420,9 @@ int id progress_circular 0x7f080160
 int id progress_horizontal 0x7f080161
 int id radio 0x7f080162
 int id ratio 0x7f080163
+int id recipientNameText 0x7f08020f
 int id rectangles 0x7f080164
+int id recyclerMessagesList 0x7f080210
 int id recyclerViewChats 0x7f080203
 int id registerButton 0x7f080165
 int id reverseSawtooth 0x7f080166
@@ -3465,6 +3469,7 @@ int id search_voice_btn 0x7f08018e
 int id select_dialog_listview 0x7f08018f
 int id selected 0x7f080190
 int id selection_type 0x7f080191
+int id sendMessageButt 0x7f080209
 int id sharedValueSet 0x7f080192
 int id sharedValueUnset 0x7f080193
 int id shortcut 0x7f080194
@@ -3579,6 +3584,7 @@ int id withinBounds 0x7f0801fc
 int id wrap 0x7f0801fd
 int id wrap_content 0x7f0801fe
 int id wrap_content_constrained 0x7f0801ff
+int id writeTextMessage 0x7f080211
 int id x_left 0x7f080200
 int id x_right 0x7f080201
 int integer abc_config_activityDefaultDur 0x7f090000
@@ -3719,6 +3725,8 @@ int layout design_navigation_menu_item 0x7f0b002f
 int layout design_text_input_end_icon 0x7f0b0030
 int layout design_text_input_start_icon 0x7f0b0031
 int layout item_chat 0x7f0b006f
+int layout item_message_receiver 0x7f0b0071
+int layout item_message_user 0x7f0b0072
 int layout m3_alert_dialog 0x7f0b0032
 int layout m3_alert_dialog_actions 0x7f0b0033
 int layout m3_alert_dialog_title 0x7f0b0034
@@ -3832,6 +3840,7 @@ int string character_counter_overflowed_content_description 0x7f100028
 int string character_counter_pattern 0x7f100029
 int string chatsListTop 0x7f1000c8
 int string clear_text_end_icon_content_description 0x7f10002a
+int string collocutorName 0x7f1000cc
 int string common_google_play_services_enable_button 0x7f10002b
 int string common_google_play_services_enable_text 0x7f10002c
 int string common_google_play_services_enable_title 0x7f10002d
@@ -3907,6 +3916,7 @@ int string material_timepicker_pm 0x7f100072
 int string material_timepicker_select_time 0x7f100073
 int string material_timepicker_text_input_mode_description 0x7f100074
 int string messField 0x7f1000c9
+int string messageSendButt 0x7f1000cd
 int string mtrl_badge_numberless_content_description 0x7f100075
 int string mtrl_checkbox_button_icon_path_checked 0x7f100076
 int string mtrl_checkbox_button_icon_path_group_name 0x7f100077

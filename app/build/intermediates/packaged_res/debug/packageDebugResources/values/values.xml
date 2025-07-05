@@ -11,6 +11,7 @@
     <string name="app_name">ChatFirebase</string>
     <string name="authButtonLogin">Sign In</string>
     <string name="chatsListTop">Chat List</string>
+    <string name="collocutorName">Collocutor Name</string>
     <string name="gcm_defaultSenderId" translatable="false">655370149431</string>
     <string name="google_api_key" translatable="false">AIzaSyALKtgciILZs5AgCqDL-XSb47u_JXDyUzc</string>
     <string name="google_app_id" translatable="false">1:655370149431:android:088a3146a63801e332a9b2</string>
@@ -19,6 +20,7 @@
     <string name="loginDrawable">Logo Img</string>
     <string name="logoutButt">Exit</string>
     <string name="messField">Message</string>
+    <string name="messageSendButt">Send</string>
     <string name="profilePhotoDescription">Profile photo</string>
     <string name="project_id" translatable="false">chat-32708</string>
     <string name="registerButtonText">Sign up</string>

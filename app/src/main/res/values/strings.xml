@@ -15,4 +15,6 @@
     <string name="writeFirstText">Be first to write the message</string>
     <string name="writeEmailMess">User email</string>
     <string name="messField">Message</string>
+    <string name="collocutorName">Collocutor Name</string>
+    <string name="messageSendButt">Send</string>
 </resources>

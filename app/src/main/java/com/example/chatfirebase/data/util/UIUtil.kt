@@ -2,11 +2,13 @@ package com.example.chatfirebase.data.util
 
 import ChatListAdapter
 import FirebaseRepository
+import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
@@ -27,6 +29,11 @@ object UIUtil {
             putExtra("userId", userId)
         }
         context.startActivity(intent)
+    }
+
+    fun updateTextViewText(context: Context, viewId: Int, newText: String?) {
+        val textView = (context as? Activity)?.findViewById<TextView>(viewId)
+        textView?.text = newText
     }
 
     fun showCustomDialog(context: Context, senderId: String?, lifecycleOwner: LifecycleOwner, _users:MutableList<ChatUser>, _adapter: ChatListAdapter) {

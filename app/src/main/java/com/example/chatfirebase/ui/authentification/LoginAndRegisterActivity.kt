@@ -11,24 +11,27 @@ import kotlinx.coroutines.launch
 
 
 class LoginAndRegisterActivity : AppCompatActivity() {
+
+    private val _firebaseRepo = FirebaseRepository()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val inputProvider = UserInputProvider(this)
-        val firebaseRepo = FirebaseRepository()
-
         val loginButton = findViewById<Button>(R.id.authButt)
         val registerButton = findViewById<Button>(R.id.registerButton)
+
+        val inputProvider = UserInputProvider(this)
+
         loginButton.setOnClickListener {
             lifecycleScope.launch {
-                firebaseRepo.loginUser(this@LoginAndRegisterActivity, inputProvider.getEmail(), inputProvider.getPassword())
+                _firebaseRepo.loginUser(this@LoginAndRegisterActivity, inputProvider.getEmail(), inputProvider.getPassword())
             }
         }
 
         registerButton.setOnClickListener {
             lifecycleScope.launch {
-                firebaseRepo.registerUser(this@LoginAndRegisterActivity, inputProvider.getEmail(), inputProvider.getPassword())
+                _firebaseRepo.registerUser(this@LoginAndRegisterActivity, inputProvider.getEmail(), inputProvider.getPassword())
             }
         }
     }

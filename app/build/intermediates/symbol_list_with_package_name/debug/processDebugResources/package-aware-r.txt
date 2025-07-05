@@ -3065,6 +3065,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ItemMessage
 id META
 id NO_DEBUG
 id SHIFT
@@ -3313,6 +3314,7 @@ id line3
 id linear
 id listMode
 id list_item
+id llInputArea
 id logoutButton
 id m3_side_sheet
 id marquee
@@ -3419,7 +3421,9 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recipientNameText
 id rectangles
+id recyclerMessagesList
 id recyclerViewChats
 id registerButton
 id reverseSawtooth
@@ -3466,6 +3470,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id sendMessageButt
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3580,6 +3585,7 @@ id withinBounds
 id wrap
 id wrap_content
 id wrap_content_constrained
+id writeTextMessage
 id x_left
 id x_right
 integer abc_config_activityDefaultDur
@@ -3720,6 +3726,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
+layout item_message_receiver
+layout item_message_user
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3833,6 +3841,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chatsListTop
 string clear_text_end_icon_content_description
+string collocutorName
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -3908,6 +3917,7 @@ string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
 string messField
+string messageSendButt
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

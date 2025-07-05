@@ -1,6 +1,5 @@
 package com.example.chatfirebase.firebase.firebase_helper
 
-import android.app.DownloadManager
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
