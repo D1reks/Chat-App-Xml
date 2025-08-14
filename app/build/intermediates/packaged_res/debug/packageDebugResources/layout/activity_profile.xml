@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context=".ui.profile.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ProgressBar
+            android:id="@+id/progressBarProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:indeterminateTint="#FFFFFF"/>
+
+        <!-- Фото профиля -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile_picture"
+            android:contentDescription="@string/profilePhotoDescription"
+            android:scaleType="centerCrop"
+            android:background="@drawable/profile_picture"
+            android:layout_marginBottom="24dp"/>
+
+
+        <!-- Имя -->
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userNameText"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Почта -->
+        <TextView
+            android:id="@+id/userEmailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userEmailText"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Кнопка к списку чатов -->
+        <Button
+            android:id="@+id/chatListButton"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toChatListButt"
+            android:paddingVertical="12dp"
+            android:textSize="16sp"
+            />
+
+        <!-- Кнопка выхода -->
+        <Button
+            android:id="@+id/logoutButton"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logoutButt"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:backgroundTint="#B00020"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

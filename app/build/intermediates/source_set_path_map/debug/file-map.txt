@@ -1,0 +1,41 @@
+com.example.chatfirebase.app-pngs-0 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\generated\res\pngs\debug
+com.example.chatfirebase.app-res-1 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\generated\res\processDebugGoogleServices
+com.example.chatfirebase.app-resValues-2 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\generated\res\resValues\debug
+com.example.chatfirebase.app-rs-3 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\generated\res\rs\debug
+com.example.chatfirebase.app-packageDebugResources-4 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.chatfirebase.app-packageDebugResources-5 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.chatfirebase.app-merged_res-6 C:\Chat+Firebase Xml\Chat-App-Xml\app\build\intermediates\merged_res\debug
+com.example.chatfirebase.app-debug-7 C:\Chat+Firebase Xml\Chat-App-Xml\app\src\debug\res
+com.example.chatfirebase.app-main-8 C:\Chat+Firebase Xml\Chat-App-Xml\app\src\main\res
+com.example.chatfirebase.app-recyclerview-1.1.0-9 C:\Users\ROG\.gradle\caches\8.13\transforms\1348d48b1ac2a4a188a2a2d79455c87e\transformed\recyclerview-1.1.0\res
+com.example.chatfirebase.app-lifecycle-viewmodel-savedstate-2.5.1-10 C:\Users\ROG\.gradle\caches\8.13\transforms\138dbadc4adfa1a91ff69f84c4fc9395\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.chatfirebase.app-browser-1.4.0-11 C:\Users\ROG\.gradle\caches\8.13\transforms\175378bdc90f3c861dd7cd4df14061ac\transformed\browser-1.4.0\res
+com.example.chatfirebase.app-lifecycle-viewmodel-2.5.1-12 C:\Users\ROG\.gradle\caches\8.13\transforms\192c375284b0714017d4486d55e07731\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.chatfirebase.app-core-ktx-1.9.0-13 C:\Users\ROG\.gradle\caches\8.13\transforms\1b80da5b983fbaa61785c8ed217b00cb\transformed\core-ktx-1.9.0\res
+com.example.chatfirebase.app-play-services-basement-18.4.0-14 C:\Users\ROG\.gradle\caches\8.13\transforms\21229d4cb1c16b259f753aa75c94a6e0\transformed\play-services-basement-18.4.0\res
+com.example.chatfirebase.app-lifecycle-runtime-2.5.1-15 C:\Users\ROG\.gradle\caches\8.13\transforms\248d24c447b791a0828952c84d530543\transformed\lifecycle-runtime-2.5.1\res
+com.example.chatfirebase.app-cardview-1.0.0-16 C:\Users\ROG\.gradle\caches\8.13\transforms\44351bff9baa5e237e4976f832031107\transformed\cardview-1.0.0\res
+com.example.chatfirebase.app-coordinatorlayout-1.1.0-17 C:\Users\ROG\.gradle\caches\8.13\transforms\44f1a8f65a7698a6e741665c8660afb4\transformed\coordinatorlayout-1.1.0\res
+com.example.chatfirebase.app-play-services-auth-20.7.0-18 C:\Users\ROG\.gradle\caches\8.13\transforms\46ba02bd4a3f0cf115d913fe924d4368\transformed\play-services-auth-20.7.0\res
+com.example.chatfirebase.app-core-1.9.0-19 C:\Users\ROG\.gradle\caches\8.13\transforms\4dd09a4590647056c83be8285d9fb8d8\transformed\core-1.9.0\res
+com.example.chatfirebase.app-material-1.9.0-20 C:\Users\ROG\.gradle\caches\8.13\transforms\4e8b619b1c2a5ce9c5351993a9d2c83d\transformed\material-1.9.0\res
+com.example.chatfirebase.app-emoji2-1.2.0-21 C:\Users\ROG\.gradle\caches\8.13\transforms\59e162c804ff01b6a1b754392bfc5c23\transformed\emoji2-1.2.0\res
+com.example.chatfirebase.app-emoji2-views-helper-1.2.0-22 C:\Users\ROG\.gradle\caches\8.13\transforms\5d14b564b121dfacb61c280dd7655562\transformed\emoji2-views-helper-1.2.0\res
+com.example.chatfirebase.app-activity-1.6.0-23 C:\Users\ROG\.gradle\caches\8.13\transforms\5d2b2d39470587b9aaf876cc1cfeeac9\transformed\activity-1.6.0\res
+com.example.chatfirebase.app-credentials-play-services-auth-1.2.0-rc01-24 C:\Users\ROG\.gradle\caches\8.13\transforms\5d93c69a7cdab9b5ca68f2f2914ec879\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.example.chatfirebase.app-constraintlayout-2.1.4-25 C:\Users\ROG\.gradle\caches\8.13\transforms\6ccfb8040bf1b6e59a2e359e86bf74f9\transformed\constraintlayout-2.1.4\res
+com.example.chatfirebase.app-firebase-common-21.0.0-26 C:\Users\ROG\.gradle\caches\8.13\transforms\7d4a1a19a3340fa83eb79e69194b2395\transformed\firebase-common-21.0.0\res
+com.example.chatfirebase.app-drawerlayout-1.1.1-27 C:\Users\ROG\.gradle\caches\8.13\transforms\8b6b6eff63c592c767c7c8e11a27e7b1\transformed\drawerlayout-1.1.1\res
+com.example.chatfirebase.app-lifecycle-process-2.4.1-28 C:\Users\ROG\.gradle\caches\8.13\transforms\948871110ab46b140db74d8edb344e9e\transformed\lifecycle-process-2.4.1\res
+com.example.chatfirebase.app-appcompat-1.6.1-29 C:\Users\ROG\.gradle\caches\8.13\transforms\94a47e4ac5f5a1893ccf04565a912d91\transformed\appcompat-1.6.1\res
+com.example.chatfirebase.app-savedstate-1.2.0-30 C:\Users\ROG\.gradle\caches\8.13\transforms\97bc98ef4f742b060a4a7f91233caacf\transformed\savedstate-1.2.0\res
+com.example.chatfirebase.app-appcompat-resources-1.6.1-31 C:\Users\ROG\.gradle\caches\8.13\transforms\9abfd4c011a46e5d28dcbbe5f3162f55\transformed\appcompat-resources-1.6.1\res
+com.example.chatfirebase.app-lifecycle-livedata-core-2.5.1-32 C:\Users\ROG\.gradle\caches\8.13\transforms\a82fee88f8afa5e3f3cdeec0fb3c6469\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.chatfirebase.app-startup-runtime-1.1.1-33 C:\Users\ROG\.gradle\caches\8.13\transforms\cdadcb6598b0c2458a2e58da8cb17ec9\transformed\startup-runtime-1.1.1\res
+com.example.chatfirebase.app-viewpager2-1.0.0-34 C:\Users\ROG\.gradle\caches\8.13\transforms\cdc9ede7f6a9b3644e75b85f609c3c1b\transformed\viewpager2-1.0.0\res
+com.example.chatfirebase.app-play-services-base-18.1.0-35 C:\Users\ROG\.gradle\caches\8.13\transforms\d3b606639d2d858b4e2070a3a954649e\transformed\play-services-base-18.1.0\res
+com.example.chatfirebase.app-core-common-2.0.3-36 C:\Users\ROG\.gradle\caches\8.13\transforms\eea0c8de04cdca52306a234e9693d7d2\transformed\core-common-2.0.3\res
+com.example.chatfirebase.app-credentials-1.2.0-rc01-37 C:\Users\ROG\.gradle\caches\8.13\transforms\f0630142698004d6af4c1498d609a818\transformed\credentials-1.2.0-rc01\res
+com.example.chatfirebase.app-annotation-experimental-1.3.0-38 C:\Users\ROG\.gradle\caches\8.13\transforms\f2cefd097a25bdbfa9da6d8a8909f82f\transformed\annotation-experimental-1.3.0\res
+com.example.chatfirebase.app-transition-1.2.0-39 C:\Users\ROG\.gradle\caches\8.13\transforms\f331757677c0d9acac1f0abf4ac4afa1\transformed\transition-1.2.0\res
+com.example.chatfirebase.app-fragment-1.3.6-40 C:\Users\ROG\.gradle\caches\8.13\transforms\f8b4f978790dcf9abe08b990e23d6a21\transformed\fragment-1.3.6\res

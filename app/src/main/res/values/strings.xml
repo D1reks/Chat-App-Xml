@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChatFirebase</string>
+    <string name="userEmail">Your Email</string>
+    <string name="userPassword">Your Password</string>
+    <string name="authButtonLogin">Sign In</string>
+    <string name="registerButtonText">Sign up</string>
+    <string name="loginDrawable">Logo Img</string>
+    <string name="toChatListButt">To chat List</string>
+    <string name="logoutButt">Exit</string>
+    <string name="profilePhotoDescription">Profile photo</string>
+    <string name="userNameText">User name</string>
+    <string name="userEmailText">example@gmail.com</string>
+    <string name="chatsListTop">Chat List</string>
+    <string name="addChatButt">Add Chat</string>
+    <string name="writeFirstText">Be first to write the message</string>
+    <string name="writeEmailMess">User email</string>
+    <string name="messField">Message</string>
+    <string name="collocutorName">Collocutor Name</string>
+    <string name="messageSendButt">Send</string>
+</resources>
